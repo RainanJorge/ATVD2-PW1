@@ -1,8 +1,10 @@
+import { Pet } from "../entities/Pet/Pet";
+
 type User = {
     id: string;
     cpf: string;
     name: string;
-    books: Book[];
+    pets: Pet[];
 }
 
 declare namespace Express {
